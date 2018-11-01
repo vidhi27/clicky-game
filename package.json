@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+  
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +30,6 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage" : "http://vidhi27.github.io/clicky-game"
 }
