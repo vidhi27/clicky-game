@@ -1,0 +1,15 @@
+.jumbo {
+    margin-top: 80px; 
+}
+
+.jumbotron {
+    box-shadow: 0 2px 5px 0 #240b36;
+    font-family: 'Patua One', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: linear-gradient(to left, #f1f2b5 0%, #c2e59c 100%);
+}
+
+.instructions {
+    text-align: center;
+}
