@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-  
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,8 +29,10 @@
   ],
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "homepage": "https://vidhi27.github.io/clicky-game"
+  },
   "author": "",
-  "license": "ISC",
-  "homepage" : "http://vidhi27.github.io/clicky-game"
+  "license": "ISC"
 }
