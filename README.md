@@ -1,4 +1,13 @@
+## Clicky-Game
+
+-The game breaks up application's UI into components, manage component state, and respond to user events.
+-The application renders different images to the screen. Each image will listen for click events.
+-The application will keep track of the user's score. The user's score will increment when clicking an image for the first time. The user's score will reset to 0 if they click the same image more than once.
+-Every time an image is clicked, the images rendered to the page will shuffle themselves in a random order.
+-Once the user's score is reset after an incorrect guess, the game will restart.
+
 ![Game Screenshot](https://github.com/vidhi27/clicky-game/blob/master/src/1.png)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
